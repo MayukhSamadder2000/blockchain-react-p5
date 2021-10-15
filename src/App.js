@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import MyArt from './sketches/MyArt';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <MyArt />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello Sweets
         </p>
         <a
           className="App-link"
